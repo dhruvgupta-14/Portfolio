@@ -28,7 +28,7 @@ import postmanLogo from "./assets/tech_logo/postman.png";
 import mcLogo from "./assets/tech_logo/mc.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 import postgreLogo from "./assets/tech_logo/postgre.png";
-import renderLogo from "./assets/tech_logo/Render_Logo.jpg";
+// import renderLogo from "./assets/tech_logo/Render_Logo.jpg";
 import railwayLogo from "./assets/tech_logo/railway.png";
 import stataLogo from "./assets/tech_logo/stata.jpg";
 import cursorLogo from "./assets/tech_logo/Cursor.png";
