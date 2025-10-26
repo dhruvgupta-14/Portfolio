@@ -100,7 +100,7 @@ export const SkillsInfo = [
       { name: "Postman", logo: postmanLogo },
       { name: "Compass", logo: mcLogo },
       { name: "Vercel", logo: vercelLogo },
-      { name: "Render", logo: renderLogo },
+      // { name: "Render", logo: renderLogo },
       { name: "Railway", logo: railwayLogo },
       { name: "Stata", logo: stataLogo },
       { name: "Cursor", logo: cursorLogo },
