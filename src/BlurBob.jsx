@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+
 
 const BlurBlob = ({ position, size }) => {
   const { top, left } = position
@@ -16,22 +16,12 @@ const BlurBlob = ({ position, size }) => {
       }}
     >
       <div
-        className="w-full h-full bg-purple-500 rounded-full opacity-20 blur-3xl animate-[var(--animate-blob)]"
+        className="w-full h-full bg-purple-500 rounded-full opacity-20 blur-3xl animate-blob"
       ></div>
     </div>
   );
 };
 
-// Define prop types
-BlurBlob.propTypes = {
-  position: PropTypes.shape({
-    top: PropTypes.string,
-    left: PropTypes.string,
-  }),
-  size: PropTypes.shape({
-    width: PropTypes.string,
-    height: PropTypes.string,
-  }),
-};
+
 
 export default BlurBlob;

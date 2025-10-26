@@ -44,15 +44,11 @@ import kgpLogo from "./assets/education_logo/IIT_Kharagpur_Logo.svg";
 
 
 // Project Section Logo's
-import githubdetLogo from "./assets/work_logo/github_det.png";
-import csprepLogo from "./assets/work_logo/cs_prep.png";
-import movierecLogo from "./assets/work_logo/movie_rec.png";
-import taskremLogo from "./assets/work_logo/task_rem.png";
-import npmLogo from "./assets/work_logo/npm.png";
-import webverLogo from "./assets/work_logo/web_dig.png";
-import cmLogo from "./assets/work_logo/cm.png";
-import imagesearchLogo from "./assets/work_logo/image_search.png";
-import removebgLogo from "./assets/work_logo/remove_bg.png";
+import secondBrainFe from "./assets/work_logo/second-brain-fe.png";
+import secondBrainBe from "./assets/work_logo/second-brain-be.png";
+import nestedComment from "./assets/work_logo/nested-comment.png";
+import linka from "./assets/work_logo/linka.png";
+
 
 export const SkillsInfo = [
   {
@@ -173,101 +169,72 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "GitHub Profile Detective",
+    title: "Second Brain Frontend",
     description:
-      "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-    image: githubdetLogo,
-    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+      "Second Brain is a modern and interactive React.js application that showcases advanced frontend development skills. Built with React, Tailwind CSS, and TypeScript, the app features a highly responsive and visually appealing interface, dynamic content rendering for links, notes, documents, and images, and smooth, intuitive interactions. I implemented AI-powered semantic search and a chatbot, ensuring seamless user experiences with real-time queries and fast results. The project highlights my ability to create reusable components, manage complex state efficiently, and design user-centric layouts with clean aesthetics and polished animations.",
+    image: secondBrainFe,
+    tags: ["React", "Tailwind CSS", "TypeScript", "Authentication"],
     github:
-      "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    webapp: "https://githubprofiledetective.netlify.app/",
+      "https://github.com/dhruvgupta-14/second-brain-fe",
+    webapp: "",
   },
   {
     id: 1,
-    title: "CS Prep",
+    title: "Second Brain Backend",
     description:
-      "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-    image: csprepLogo,
+      "Second Brain Backend powers a productivity-focused web application that replaces inefficient personal note-taking via messaging apps with a structured and searchable content system. While the backend is Node.js and Express-based, the project demonstrates strong API design, data modeling, and integration skills that directly impact the frontend experience. I implemented organized endpoints for storing and retrieving diverse content types—including notes, links, images, and tweets—enabling a responsive and dynamic frontend. The API supports semantic search using Pinecone, allowing meaningful, fast searches, and real-time chat with WebSockets, ensuring smooth live interactions. Authentication and user management are robust, with JWT sessions, encrypted passwords, and profile support, enabling a seamless and secure user interface. Overall, this project highlights my ability to create backend services that empower rich, interactive frontend experiences.",
+    image:secondBrainBe ,
     tags: [
-      "React JS",
       "Node.js",
+      "TypeScript",
+      "WebSockets",
+      "Pinecone",
+      "Azure Blob",
       "MongoDB",
       "Express",
-      "HTML",
-      "CSS",
-      "JavaScript",
     ],
-    github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://csprep.netlify.app/",
+    github: "https://github.com/dhruvgupta-14/second-brain-be",
+    webapp: "",
   },
   {
     id: 2,
-    title: "Movie Recommendation App",
+    title: "Nested Comment FullStack",
     description:
-      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-    image: movierecLogo,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      "Nested Comment Web App (Frontend) is part of a full-stack project designed to provide a modern, secure, and interactive platform for managing user discussions. Built with React and Tailwind CSS, the frontend delivers a smooth user experience with protected routes, global authentication management via AuthContext, and seamless integration with backend APIs. Users can sign up, log in, and interact with comments, while admins have a dedicated dashboard to manage discussions, delete comments, and maintain platform quality. The app showcases a nested comment structure, enabling threaded conversations, and highlights my ability to create responsive, user-friendly interfaces that work hand-in-hand with secure authentication and backend logic, making it a complete full-stack solution.",
+    image: nestedComment,
+    tags: ["React JS", "Tailwind", "Axios", "NodeJs", "JavaScript","MongoDb","jwt","bcryptjs"],
+    github: "https://github.com/dhruvgupta-14/NestedCommet-fe",
+    webapp: "https://nested-commet-fe.vercel.app/login",
   },
   {
     id: 3,
-    title: "Email Validator NPM Package",
+    title: "LinkA Modern Landing Page",
     description:
-      "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-    image: npmLogo,
-    tags: ["React JS", "Node.js", "NPM", "Validation"],
-    github: "https://github.com/codingmastr/cmtk-email-validator",
-    webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+      "Contact Management App is a modern and responsive React application that demonstrates advanced frontend development skills. Built with React and Tailwind CSS, the app allows users to seamlessly view, search, and add contacts, combining API-fetched data from randomuser.me with locally stored entries via localStorage. The interface features smooth animations, hover effects, and a consistent modern theme, including dark mode support, ensuring a polished user experience. Key frontend highlights include reusable components, dynamic state management using React Context, API integration with Axios, and responsive layouts optimized for all screen sizes. This project showcases my ability to design interactive, user-friendly, and visually appealing frontend applications that handle both dynamic data and user input efficiently.",
+    image: linka,
+    tags: ["React JS", "TailwindCSS", "Random User API", "Axios","Custom Animination"],
+    github: "https://github.com/dhruvgupta-14/tria-react-assignment",
+    webapp: "https://tria-react-assignment.vercel.app/",
   },
-  {
-    id: 4,
-    title: "Task Reminder Chrome Extension Tool",
-    description:
-      "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-    image: taskremLogo,
-    tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-  },
-  {
-    id: 5,
-    title: "Webverse Digital",
-    description:
-      "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-    image: webverLogo,
-    tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-    github: "https://github.com/codingmastr/Webverse-Digital",
-    webapp: "https://webversedigital.com/",
-  },
-  {
-    id: 6,
-    title: "Coding Master",
-    description:
-      "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-    image: cmLogo,
-    tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-    github: "https://codingmasterweb.in/",
-    webapp: "https://codingmasterweb.in/",
-  },
-  {
-    id: 7,
-    title: "Image Search App",
-    description:
-      "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-    image: imagesearchLogo,
-    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Search-App",
-    webapp: "https://imagsearch.netlify.app/",
-  },
-  {
-    id: 8,
-    title: "Image Background Remover",
-    description:
-      "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-    image: removebgLogo,
-    tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Background-Remover",
-    webapp: "https://removeyourbg.netlify.app/",
-  },
+  // {
+  //   id: 4,
+  //   title: "RAG Frontend",
+  //   description:
+  //     "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
+  //   image: "",
+  //   tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
+  //   github: "https://github.com/dhruvgupta-14/RAG-Frontend",
+  //   webapp: "",
+  // },
+  // {
+  //   id: 5,
+  //   title: "RAG Backend",
+  //   description:
+  //     "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
+  //   image: "",
+  //   tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
+  //   github: "https://github.com/dhruvgupta-14/RAG-Backend",
+  //   webapp: "",
+  // },
+  
 ];

@@ -15,7 +15,7 @@ const Work = () => {
   return (
     <section
       id="work"
-      className="py-16 pb-16 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative"
+      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative"
     >
       {/* Section Title */}
       <div className="text-center mb-16">
@@ -66,8 +66,8 @@ const Work = () => {
 
       {/* Modal Container */}
       {selectedProject && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
-          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/90">
+          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-x-hidden max-h-[90vh] relative">
             <div className="flex justify-end p-4">
               <button
                 onClick={handleCloseModal}
@@ -77,7 +77,7 @@ const Work = () => {
               </button>
             </div>
 
-            <div className="flex flex-col">
+            <div className="flex flex-col overflow-y-auto">
               <div className="w-full flex justify-center bg-gray-900 px-4">
                 <img
                   src={selectedProject.image}
@@ -111,7 +111,8 @@ const Work = () => {
                   >
                     View Code
                   </a>
-                  <a
+                  {
+                    selectedProject.webapp!==""&&<a
                     href={selectedProject.webapp}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -119,6 +120,8 @@ const Work = () => {
                   >
                     View Live
                   </a>
+                  }
+                  
                 </div>
               </div>
             </div>
