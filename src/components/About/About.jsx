@@ -1,5 +1,6 @@
 import Tilt from "react-parallax-tilt";
-import profileImage from "../../assets/profile2.jpg";
+// import profileImage from "../../assets/profile2.jpg";
+import profileImage from "../../assets/profile.jpeg";
 import { Typewriter } from "react-simple-typewriter";
 
 const About = () => {
